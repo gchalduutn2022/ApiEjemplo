@@ -1,0 +1,31 @@
+:root {
+    --azul: #0071b7;
+    --blanco: #FFF;
+    --naranja: #ff4f1e;
+}
+
+.listado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.listado img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.color-celeste{
+    background-color: aqua;
+}
+.color-amar{
+    background-color: yellow;
+}
+.contenedor {
+    max-width: 120rem;
+    padding: 5rem;
+    margin: auto;
+    background-color: var(--azul);
+}
+
